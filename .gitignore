@@ -1,0 +1,50 @@
+# C++ build files
+/build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.out
+*.a
+*.lib
+*.pdb
+*.idb
+*.ilk
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+CMakeOutput.log
+CMakeError.log
+*.cmake
+Makefile
+
+# Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.whl
+.env
+.venv/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.user
+*.suo
+*.userprefs
+*.tps
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
