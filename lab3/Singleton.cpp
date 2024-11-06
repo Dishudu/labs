@@ -35,7 +35,6 @@ int main() {
     HeatingSystemConfig* config = HeatingSystemConfig::getInstance();
     config->showConfig();
 
-    // Изменение параметров
     config->setTemperature(25);
     config->setMode("Comfort");
     config->showConfig();

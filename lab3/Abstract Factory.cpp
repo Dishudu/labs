@@ -12,7 +12,7 @@ public:
     virtual void use() const = 0;
 };
 
-// Современная мебель
+
 class ModernSofa : public Sofa {
 public:
     void sitOn() const override {
@@ -27,7 +27,7 @@ public:
     }
 };
 
-// Классическая мебель
+
 class ClassicSofa : public Sofa {
 public:
     void sitOn() const override {
@@ -42,7 +42,7 @@ public:
     }
 };
 
-// Абстрактная фабрика мебели
+
 class FurnitureFactory {
 public:
     virtual std::unique_ptr<Sofa> createSofa() const = 0;

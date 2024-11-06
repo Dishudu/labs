@@ -13,7 +13,7 @@ public:
     }
 };
 
-// Абстрактный строитель для бургера
+
 class BurgerBuilder {
 public:
     virtual void buildBun() = 0;
@@ -22,7 +22,7 @@ public:
     virtual std::unique_ptr<Burger> getResult() = 0;
 };
 
-// Конкретный строитель для классического бургера
+
 class ClassicBurgerBuilder : public BurgerBuilder {
 private:
     std::unique_ptr<Burger> burger;
@@ -39,7 +39,7 @@ public:
     }
 };
 
-// Директор
+
 class Chef {
 public:
     std::unique_ptr<Burger> makeBurger(BurgerBuilder& builder) {

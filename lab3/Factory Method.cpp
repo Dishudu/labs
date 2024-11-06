@@ -21,7 +21,6 @@ public:
     }
 };
 
-// Фабрика транспортных средств
 class VehicleFactory {
 public:
     virtual std::unique_ptr<Vehicle> createVehicle() const = 0;
