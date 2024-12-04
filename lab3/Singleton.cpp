@@ -8,7 +8,7 @@ private:
     int temperature;
     std::string mode;
 
-    HeatingSystemConfig() : temperature(22), mode("Eco") {} // приватный конструктор
+    HeatingSystemConfig() : temperature(22), mode("Eco") {}
 
 public:
     static HeatingSystemConfig* getInstance() {
